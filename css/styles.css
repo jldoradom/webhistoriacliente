@@ -1,0 +1,53 @@
+html, body {
+    font-family: "Nunito", sans-serif !important;
+}
+
+h1 {
+font-weight: 700 !important;
+}
+
+a {
+text-decoration: none !important;
+color: inherit !important;
+}
+.mascara {
+    background-image: url("../img/home4k.jpg");
+    
+}
+.creaImagen{
+    background-image: url("../img/crea.png");
+   
+}.comparteImagen{
+    background-image: url("../img/comparte.png");
+   
+}.comentaImagen{
+    background-image: url("../img/comenta.png");
+   
+}
+.imagenUltimosBlog {
+    background-image: url("../img/libros.jpg");
+
+}
+p{
+    margin-bottom: initial;
+}
+.blog{
+    background-image: url("../img/libros.jpg");
+}
+
+.texto-verde{
+    
+}
+
+.font-weight-700 {
+    
+}
+.btn-primary-verde {
+    color: #fff !important;
+    background-color: #1FB139;
+    border-color: #1FB139;
+}
+.btn-primary-verde:hover {
+    background-color: #1B9B32;
+    border-color: #1B9B32;
+}
