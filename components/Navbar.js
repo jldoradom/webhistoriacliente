@@ -18,9 +18,9 @@ const Nav = styled.nav`
   color: white;
   
   width: 100%;
-  height: 800px;
+  height: 100vh;
 
-  background: linear-gradient(to right, #38ef7d, #11998e), url("../img/home-wide.jpg");
+  background: linear-gradient(to right bottom, #38ef7d, #36b365);
   
   .logo {
     padding: 15px;
@@ -35,8 +35,8 @@ const Nav = styled.nav`
 const Mascara = styled.div`
     background-size: cover;
     width: 100%;
-    height: 800px;
-    opacity: 0.6;
+    height: 100vh;
+    opacity: 0.4;
     position: absolute;
     background-position-x: center;
     background-position-y: bottom;

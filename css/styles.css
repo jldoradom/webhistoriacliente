@@ -11,7 +11,7 @@ text-decoration: none !important;
 color: inherit !important;
 }
 .mascara {
-    background-image: url("../img/home4k.jpg");
+    background-image: url("../img/home-wide.jpg");
     
 }
 .creaImagen{
@@ -25,29 +25,76 @@ color: inherit !important;
    
 }
 .imagenUltimosBlog {
-    background-image: url("../img/libros.jpg");
+    background-image: url("../img/egipto.jpg");
 
 }
 p{
     margin-bottom: initial;
 }
 .blog{
-    background-image: url("../img/libros.jpg");
-}
-
-.texto-verde{
-    
-}
-
-.font-weight-700 {
-    
+    background-image: url("../img/roma.jpg");
 }
 .btn-primary-verde {
     color: #fff !important;
-    background-color: #1FB139;
     border-color: #1FB139;
 }
+.btn {
+    background-color: #1FB139 !important;
+}
 .btn-primary-verde:hover {
-    background-color: #1B9B32;
+    background-color: #1B9B32 !important;
     border-color: #1B9B32;
+}
+
+.ol > li::before {
+    content: counter(li);
+    counter-increment: li;
+    padding: 7px 12px;
+    width: 25px;
+    height: 25px;
+    margin-right:12px;
+    line-height: 35px;
+    background: #1FB139;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 20px 8px rgba(31,177,57,0.47);
+    }
+
+    .ol > li {
+        margin-bottom: 13px;
+        background-color: #0000000f;
+        border-radius: 15px 15px 15px 15px;
+        padding: 10px 19px;
+    }
+.iconoUser {
+    height: 40px;
+    color: white;
+    background-color: green;
+    padding: 8px;
+    width: 40px;
+    border-radius: 90%;
+    margin-right: 1rem;
+}
+
+.iconoHeart {
+    height: 17px;
+    color: #1FB139;
+    margin-right: 1rem;
+}
+
+/************************ Responsive **************************************/
+
+@media (max-width: 767px){
+    p, span {
+        font-size: 0.9rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+ 
+    
 }

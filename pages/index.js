@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import Layout from '../components/Layout';
-import styled  from 'styled-components';
-import Banner from '../components/Banner';
 import Lastblog from '../components/Lastblog';
+import Infobanner from '../components/Infobanner';
+
 
 
 
@@ -12,7 +12,8 @@ const Index = ({children}) => (
     <Fragment>
         <Layout /> 
         {children}
-        <Banner />
+        <Infobanner />
+       
         <Lastblog />
         
     </Fragment>

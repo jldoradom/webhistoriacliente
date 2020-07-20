@@ -14,6 +14,9 @@ const H2 = styled.h2`
     font-size: 1.8rem;
     font-weight: 600;
     padding: 1rem;
+    @media (max-width: 767px){
+        font-size: 1.6rem;
+    }
 `
 
 const Banner = () => {
@@ -22,7 +25,7 @@ const Banner = () => {
             <div className="row">
                 <div className="col-12 col-lg-4">
                     <H2 className="text-center">Crear</H2>
-                    <Imagen className="creaImagen img-responsive" />
+                    <Imagen className="creaImagen" />
                 </div>
                 <div className="col-12 col-lg-4">
                     <H2 className="text-center">Comparte</H2> 
